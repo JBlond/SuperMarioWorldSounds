@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Super Mario Drum Kit</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    
+    <body>
+        <div class="container">
+            <img src="./images/super-mario-world.svg" alt="Super Mario Title"
+            class="title" />
+            <div class="player">
+                <audio controls class="sound">
+                    <source src="sounds/Title-Bgm.mp3" type="audio/mpeg" />
+                </audio>
+                <div class="keys">
+                    <div data-key="49" class="key"> <kbd>1</kbd>
+                        <span class="sound">reserve store</span>
+                        <audio data-key="49" src="./sounds/1-smw_reserve_item_store.wav"></audio>
+                    </div>
+                    <div data-key="50" class="key"> <kbd>2</kbd>
+                        <span class="sound">reserve release</span>
+                        <audio data-key="50" src="./sounds/2-smw_reserve_item_release.wav"></audio>
+                    </div>
+                    <div data-key="51" class="key"> <kbd>3</kbd>
+                        <span class="sound">fireworks</span>
+                        <audio data-key="51" src="./sounds/3-smw_firework.wav"></audio>
+                    </div>
+                    <div data-key="52" class="key"> <kbd>4</kbd>
+                        <span class="sound">dragon coin</span>
+                        <audio data-key="52" src="./sounds/4-smw_dragon_coin.wav"></audio>
+                    </div>
+                    <div data-key="53" class="key"> <kbd>5</kbd>
+                        <span class="sound">p up</span>
+                        <audio data-key="53" src="./sounds/5-smw_power-up_appears.wav"></audio>
+                    </div>
+                    <div data-key="54" class="key"> <kbd>6</kbd>
+                        <span class="sound">spring jump</span>
+                        <audio data-key="54" src="./sounds/6-smw_spring_jump.wav"></audio>
+                    </div>
+                    <div data-key="55" class="key"> <kbd>7</kbd>
+                        <span class="sound">iris exit</span>
+                        <audio data-key="55" src="./sounds/7-smw_goal_iris-out.wav"></audio>
+                    </div>
+                    <div data-key="56" class="key"> <kbd>8</kbd>
+                        <span class="sound">block</span>
+                        <audio data-key="56" src="./sounds/8-smw_message_block.wav"></audio>
+                    </div>
+                    <div data-key="57" class="key"> <kbd>9</kbd>
+                        <span class="sound">map move</span>
+                        <audio data-key="57" src="./sounds/9-smw_map_move_to_spot.wav"></audio>
+                    </div>
+                    <div data-key="48" class="key"> <kbd>0</kbd>
+                        <span class="sound">castle crumbles</span>
+                        <audio data-key="48" src="./sounds/0-smw_map_castle_crumbles.wav"></audio>
+                    </div>
+                </div>
+                <div class="keys">
+                    <div data-key="81" class="key"> <kbd>Q</kbd>
+                        <span class="sound">blargg</span>
+                        <audio data-key="81" src="./sounds/q-smw_blargg.wav"></audio>
+                    </div>
+                    <div data-key="87" class="key"> <kbd>W</kbd>
+                        <span class="sound">feather</span>
+                        <audio data-key="87" src="./sounds/w-smw_feather_get.wav"></audio>
+                    </div>
+                    <div data-key="69" class="key"> <kbd>E</kbd>
+                        <span class="sound">thunder</span>
+                        <audio data-key="69" src="./sounds/e-smw_thunder.wav"></audio>
+                    </div>
+                    <div data-key="82" class="key"> <kbd>R</kbd>
+                        <span class="sound">Spin jump</span>
+                        <audio data-key="82" src="./sounds/r-smw_spin_jump.wav"></audio>
+                    </div>
+                    <div data-key="84" class="key"> <kbd>T</kbd>
+                        <span class="sound">die</span>
+                        <audio data-key="84" src="./sounds/t-smw_lost_a_life.wav"></audio>
+                    </div>
+                    <div data-key="90" class="key"> <kbd>Z</kbd>
+                        <span class="sound">yoshi tongue</span>
+                        <audio data-key="90" src="./sounds/z-smw_yoshi_tongue.wav"></audio>
+                    </div>
+                    <div data-key="85" class="key"> <kbd>U</kbd>
+                        <span class="sound">break block</span>
+                        <audio data-key="85" src="./sounds/u-smw_break_block.wav"></audio>
+                    </div>
+                    <div data-key="73" class="key"> <kbd>I</kbd>
+                        <span class="sound">door opens</span>
+                        <audio data-key="73" src="./sounds/i-smw_door_opens.wav"></audio>
+                    </div>
+                    <div data-key="79" class="key"> <kbd>O</kbd>
+                        <span class="sound">keyhole exit</span>
+                        <audio data-key="79" src="./sounds/o-smw_keyhole_exit.wav"></audio>
+                    </div>
+                    <div data-key="80" class="key"> <kbd>P</kbd>
+                        <span class="sound">Game over</span>
+                        <audio data-key="80" src="./sounds/p-smw_game_over.wav"></audio>
+                    </div>
+                    <div data-key="219" class="key"> <kbd>Ü</kbd>
+                        <span class="sound">kick</span>
+                        <audio data-key="219" src="./sounds/ue-smw_kick.wav"></audio>
+                    </div>
+                    <div data-key="171" class="key"> <kbd>+</kbd>
+                        <span class="sound">yoshi fire</span>
+                        <audio data-key="171" src="./sounds/plus-smw_yoshi_fire.wav"></audio>
+                    </div>
+                </div>
+                <div class="keys">
+                    <div data-key="65" class="key"> <kbd>A</kbd>
+                        <span class="sound">1 up</span>
+                        <audio data-key="65" src="./sounds/a-smw_1-up.wav"></audio>
+                    </div>
+                    <div data-key="83" class="key"> <kbd>S</kbd>
+                        <span class="sound">cape rise</span>
+                        <audio data-key="83" src="sounds/s-smw_cape_rise.wav"></audio>
+                    </div>
+                    <div data-key="68" class="key"> <kbd>D</kbd>
+                        <span class="sound">chuck whistle</span>
+                        <audio data-key="68" src="sounds/d-smw_chuck_whistle.wav"></audio>
+                    </div>
+                    <div data-key="70" class="key"> <kbd>F</kbd>
+                        <span class="sound">coin</span>
+                        <audio data-key="70" src="sounds/f-smw_coin.wav"></audio>
+                    </div>
+                    <div data-key="71" class="key"> <kbd>G</kbd>
+                        <span class="sound">egg hatching</span>
+                        <audio data-key="71" src="sounds/g-smw_egg_hatching.wav"></audio>
+                    </div>
+                    <div data-key="72" class="key"> <kbd>H</kbd>
+                        <span class="sound">hit while</span>
+                        <audio data-key="72" src="sounds/h-smw_hit_while_flying.wav"></audio>
+                    </div>
+                    <div data-key="74" class="key"> <kbd>J</kbd>
+                        <span class="sound">jump</span>
+                        <audio data-key="74" src="sounds/j-smw_jump.wav"></audio>
+                    </div>
+                    <div data-key="75" class="key"> <kbd>K</kbd>
+                        <span class="sound">midway gate</span>
+                        <audio data-key="75" src="sounds/k-smw_midway_gate.wav"></audio>
+                    </div>
+                    <div data-key="76" class="key"> <kbd>L</kbd>
+                        <span class="sound">pipe</span>
+                        <audio data-key="76" src="sounds/l-smw_pipe.wav"></audio>
+                    </div>
+                    <div data-key="59" class="key"> <kbd>Ö</kbd>
+                        <span class="sound">bonus end</span>
+                        <audio data-key="59" src="sounds/oe-smw_bonus_game_end.wav"></audio>
+                    </div>
+                    <div data-key="222" class="key"> <kbd>Ä</kbd>
+                        <span class="sound">bowser defeated</span>
+                        <audio data-key="222" src="sounds/ae-smw_bowser_defeated.wav"></audio>
+                    </div>
+                    <div data-key="163" class="key"> <kbd>#</kbd>
+                        <span class="sound">bowser fire</span>
+                        <audio data-key="163" src="sounds/hash-smw_bowser_fire.wav"></audio>
+                    </div>
+                </div>
+                <div class="keys">
+                    <div data-key="89" class="key"> <kbd>Y</kbd>
+                        <span class="sound">castle clear</span>
+                        <audio data-key="89" src="sounds/y-smw_castle_clear.wav"></audio>
+                    </div>
+                    <div data-key="88" class="key"> <kbd>X</kbd>
+                        <span class="sound">bowser flies away</span>
+                        <audio data-key="88" src="sounds/x-smw_bowser_flies_away.wav"></audio>
+                    </div>
+                    <div data-key="67" class="key"> <kbd>C</kbd>
+                        <span class="sound">bowser returns</span>
+                        <audio data-key="67" src="sounds/c-smw_bowser_returns.wav"></audio>
+                    </div>
+                    <div data-key="86" class="key"> <kbd>V</kbd>
+                        <span class="sound">power up</span>
+                        <audio data-key="86" src="sounds/v-smw_power-up.wav"></audio>
+
+                    </div>
+                    <div data-key="66" class="key"> <kbd>B</kbd>
+                        <span class="sound">spring jump</span>
+                        <audio data-key="66" src="sounds/b-smw_spring_jump.wav"></audio>
+                    </div>
+                    <div data-key="78" class="key"> <kbd>N</kbd>
+                        <span class="sound">swimming</span>
+                        <audio data-key="78" src="sounds/n-smw_swimming.wav"></audio>
+                    </div>
+                    <div data-key="77" class="key"> <kbd>M</kbd>
+                        <span class="sound">vine</span>
+                        <audio data-key="77" src="sounds/m-smw_vine.wav"></audio>
+                    </div>
+                    <div data-key="188" class="key"> <kbd>,</kbd>
+                        <span class="sound">course clear</span>
+                        <audio data-key="188" src="sounds/comma-smw_course_clear.wav"></audio>
+                    </div>
+                    <div data-key="190" class="key"> <kbd>.</kbd>
+                        <span class="sound">fireball</span>
+                        <audio data-key="190" src="sounds/dot-smw_fireball.wav"></audio>
+                    </div>
+                    <div data-key="173" class="key"> <kbd>-</kbd>
+                        <span class="sound">magikoopa</span>
+                        <audio data-key="173" src="sounds/minus-smw_magikoopa_beam.wav"></audio>
+                    </div>
+                </div>
+                <div class="keys">
+                    <div data-key="16" class="key"> <kbd>Shft</kbd>
+                        <span class="sound">lava fall</span>
+                        <audio data-key="16" src="sounds/shift-smw_koopa_kid_falls_into_lava.wav"></audio>
+                    </div>
+                    <div data-key="17" class="key"> <kbd>Strg</kbd>
+                        <span class="sound">save</span>
+                        <audio data-key="17" src="sounds/alt-smw_save_menu.wav"></audio>
+                    </div>
+                    <div data-key="32" class="key"> <kbd>SPCE</kbd>
+                        <span class="sound">pause</span>
+                        <audio data-key="32" src="sounds/space-smw_pause.wav"></audio>
+                    </div>
+                    <div data-key="225" class="key"> <kbd>A-G</kbd>
+                        <span class="sound">scroll</span>
+                        <audio data-key="225" src="sounds/alt-gr-smw_scroll.wav"></audio>
+                    </div>
+                    <div data-key="37" class="key"> <kbd>&lt;</kbd>
+                        <span class="sound">ludwig</span>
+                        <audio data-key="37" src="sounds/lt-smw_ludwig_morton_roy_beat.wav"></audio>
+                    </div>
+                    <div data-key="38" class="key"><kbd>up</kbd>
+                        <span class="sound">stump</span>
+                        <audio data-key="38" src="sounds/up-smw_stomp.wav"></audio>
+                    </div>
+                    <div data-key="40" class="key"> <kbd>down</kbd>
+                        <span class="sound">yoshi stump</span>
+                        <audio data-key="40" src="sounds/down-smw_yoshi_stomp.wav"></audio>
+                    </div>
+                    <div data-key="39" class="key"> <kbd>&gt;</kbd>
+                        <span class="sound">riding</span>
+                        <audio data-key="39" src="sounds/gt-smw_riding_yoshi.wav"></audio>
+                    </div>
+                    <div data-key="13" class="key hidden"> <kbd>Enter</kbd>
+                        <span class="sound">yes</span>
+                        <audio data-key="13" src="sounds/enter-smw-yes.wav"></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src='./js/main.js'></script>
+    </body>
+</html>
