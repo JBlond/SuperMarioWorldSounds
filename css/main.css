@@ -15,6 +15,21 @@ body,html {
     padding: 0;
 }
 
+.github {
+    color: #d1d7e0;
+    top:10px;
+    left: 10px;
+    position: absolute;
+    z-index: 99;
+}
+
+.github svg {
+    width: var(32px);
+    height: var(32px);
+    color: #d1d7e0;
+    background-color: #d1d7e0;
+}
+
 .container {
     align-items: center;
     display: -webkit-box;
