@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='2400' height='1000' viewBox='0 0 2400 1000'>
+  <defs>
+    <style>
+      .bg { fill:#F8FAFC; }
+      .key { fill:#FFFFFF; stroke:#C8CDD2; stroke-width:2; rx:8; ry:8; }
+      .keyAlt { fill:#F5F8FA; stroke:#C8CDD2; stroke-width:2; rx:8; ry:8; }
+      .label { font:22px 'DejaVu Sans', Arial, sans-serif; fill:#101828; }
+      .code { font:18px 'DejaVu Sans', Arial, sans-serif; fill:#475569; }
+      .title { font:32px 'DejaVu Sans', Arial, sans-serif; font-weight:700; fill:#101828; }
+      .note  { font:20px 'DejaVu Sans', Arial, sans-serif; fill:#475569; }
+    </style>
+  </defs>
+
+  <rect class='bg' x='0' y='0' width='100%' height='100%'/>
+  <text class='title' x='20' y='45'>ISO-DE Tastatur (QWERTZ) – Tasten + JavaScript keyCode (legacy)</text>
+
+  <!-- Layout-Einheiten -->
+  <!-- U=60, G=10; start_x=20, start_y=70 -->
+
+  <!-- Hilfsfunktion gedanklich: key(x,y,w_u,label,code[,alt]) -->
+  <!-- ========================= Zeile 1 ========================= -->
+  <rect class='key' x='20' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='28' y='96'>Esc</text><text class='code' text-anchor='end' x='72' y='122'>27</text>
+  <!-- F1..F12 -->
+  <!-- F1..F4 -->
+  <rect class='key' x='90' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='98' y='96'>F1</text><text class='code' text-anchor='end' x='142' y='122'>112</text>
+  <rect class='key' x='160' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='168' y='96'>F2</text><text class='code' text-anchor='end' x='212' y='122'>113</text>
+  <rect class='key' x='230' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='238' y='96'>F3</text><text class='code' text-anchor='end' x='282' y='122'>114</text>
+  <rect class='key' x='300' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='308' y='96'>F4</text><text class='code' text-anchor='end' x='352' y='122'>115</text>
+  <!-- F5..F9 -->
+  <rect class='key' x='370' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='378' y='96'>F5</text><text class='code' text-anchor='end' x='422' y='122'>116</text>
+  <rect class='key' x='440' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='448' y='96'>F6</text><text class='code' text-anchor='end' x='492' y='122'>117</text>
+  <rect class='key' x='510' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='518' y='96'>F7</text><text class='code' text-anchor='end' x='562' y='122'>118</text>
+  <rect class='key' x='580' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='588' y='96'>F8</text><text class='code' text-anchor='end' x='632' y='122'>119</text>
+  <rect class='key' x='650' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='658' y='96'>F9</text><text class='code' text-anchor='end' x='702' y='122'>120</text>
+  <!-- F10..F12 -->
+  <rect class='key' x='720' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='728' y='96'>F10</text><text class='code' text-anchor='end' x='772' y='122'>121</text>
+  <rect class='key' x='790' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='798' y='96'>F11</text><text class='code' text-anchor='end' x='842' y='122'>122</text>
+  <rect class='key' x='860' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='868' y='96'>F12</text><text class='code' text-anchor='end' x='912' y='122'>123</text>
+
+  <!-- Druck, Rollen, Pause -->
+  <rect class='key' x='940' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='948' y='96'>Druck</text><text class='code' text-anchor='end' x='992' y='122'>44</text>
+  <rect class='key' x='1010' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='1018' y='96'>Rollen</text><text class='code' text-anchor='end' x='1062' y='122'>145</text>
+  <rect class='key' x='1080' y='70' width='60' height='60' rx='8' ry='8'/><text class='label' x='1088' y='96'>Pause</text><text class='code' text-anchor='end' x='1132' y='122'>19</text>
+
+  <!-- ========================= Zeile 2 ========================= -->
+  <!-- ^ 1..0 ß ´ -->
+  <!-- ^ -->
+  <rect class='key' x='20' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='28' y='166'>^</text><text class='code' text-anchor='end' x='72' y='192'>220</text>
+  <!-- 1..0 -->
+  <rect class='key' x='90' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='98' y='166'>1</text><text class='code' text-anchor='end' x='142' y='192'>49</text>
+  <rect class='key' x='160' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='168' y='166'>2</text><text class='code' text-anchor='end' x='212' y='192'>50</text>
+  <rect class='key' x='230' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='238' y='166'>3</text><text class='code' text-anchor='end' x='282' y='192'>51</text>
+  <rect class='key' x='300' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='308' y='166'>4</text><text class='code' text-anchor='end' x='352' y='192'>52</text>
+  <rect class='key' x='370' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='378' y='166'>5</text><text class='code' text-anchor='end' x='422' y='192'>53</text>
+  <rect class='key' x='440' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='448' y='166'>6</text><text class='code' text-anchor='end' x='492' y='192'>54</text>
+  <rect class='key' x='510' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='518' y='166'>7</text><text class='code' text-anchor='end' x='562' y='192'>55</text>
+  <rect class='key' x='580' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='588' y='166'>8</text><text class='code' text-anchor='end' x='632' y='192'>56</text>
+  <rect class='key' x='650' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='658' y='166'>9</text><text class='code' text-anchor='end' x='702' y='192'>57</text>
+  <rect class='key' x='720' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='728' y='166'>0</text><text class='code' text-anchor='end' x='772' y='192'>48</text>
+  <!-- ß ´ -->
+  <rect class='key' x='790' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='798' y='166'>ß</text><text class='code' text-anchor='end' x='842' y='192'>219</text>
+  <rect class='key' x='860' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='868' y='166'>´</text><text class='code' text-anchor='end' x='912' y='192'>221</text>
+
+  <!-- Rücktaste (2u) -->
+  <rect class='key' x='930' y='140' width='130' height='60' rx='8' ry='8'/><text class='label' x='938' y='166'>Rücktaste</text><text class='code' text-anchor='end' x='1052' y='192'>8</text>
+
+  <!-- Nav: Einfg, Pos1, Bild↑ -->
+  <rect class='key' x='1160' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1168' y='166'>Einfg</text><text class='code' text-anchor='end' x='1212' y='192'>45</text>
+  <rect class='key' x='1230' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1238' y='166'>Pos1</text><text class='code' text-anchor='end' x='1292' y='192'>36</text>
+  <rect class='key' x='1300' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1308' y='166'>Bild↑</text><text class='code' text-anchor='end' x='1362' y='192'>33</text>
+
+  <!-- ========================= Zeile 3 ========================= -->
+  <!-- Tab (1.5u) -->
+  <rect class='key' x='20' y='210' width='95' height='60' rx='8' ry='8'/><text class='label' x='28' y='236'>Tab</text><text class='code' text-anchor='end' x='107' y='262'>9</text>
+
+  <!-- Q W E R T Z U I O P -->
+  <!-- (jeweils ord(ASCII-Großbuchstabe)) -->
+  <rect class='key' x='125' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='133' y='236'>Q</text><text class='code' text-anchor='end' x='177' y='262'>81</text>
+  <rect class='key' x='195' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='203' y='236'>W</text><text class='code' text-anchor='end' x='247' y='262'>87</text>
+  <rect class='key' x='265' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='273' y='236'>E</text><text class='code' text-anchor='end' x='317' y='262'>69</text>
+  <rect class='key' x='335' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='343' y='236'>R</text><text class='code' text-anchor='end' x='387' y='262'>82</text>
+  <rect class='key' x='405' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='413' y='236'>T</text><text class='code' text-anchor='end' x='457' y='262'>84</text>
+  <rect class='key' x='475' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='483' y='236'>Z</text><text class='code' text-anchor='end' x='527' y='262'>90</text>
+  <rect class='key' x='545' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='553' y='236'>U</text><text class='code' text-anchor='end' x='597' y='262'>85</text>
+  <rect class='key' x='615' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='623' y='236'>I</text><text class='code' text-anchor='end' x='667' y='262'>73</text>
+  <rect class='key' x='685' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='693' y='236'>O</text><text class='code' text-anchor='end' x='737' y='262'>79</text>
+  <rect class='key' x='755' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='763' y='236'>P</text><text class='code' text-anchor='end' x='807' y='262'>80</text>
+
+  <!-- Ü (+ VK_OEM_1=186), + (=187) -->
+  <rect class='key' x='825' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='833' y='236'>Ü</text><text class='code' text-anchor='end' x='877' y='262'>186</text>
+  <rect class='key' x='895' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='903' y='236'>+</text><text class='code' text-anchor='end' x='947' y='262'>187</text>
+
+  <!-- Enter (1.5u) -->
+  <rect class='keyAlt' x='965' y='210' width='95' height='60' rx='8' ry='8'/><text class='label' x='973' y='236'>Eingabe</text><text class='code' text-anchor='end' x='1047' y='262'>13</text>
+
+  <!-- Nav: Entf, Ende, Bild↓ -->
+  <rect class='key' x='1160' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1168' y='236'>Entf</text><text class='code' text-anchor='end' x='1212' y='262'>46</text>
+  <rect class='key' x='1230' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1238' y='236'>Ende</text><text class='code' text-anchor='end' x='1292' y='262'>35</text>
+  <rect class='key' x='1300' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1308' y='236'>Bild↓</text><text class='code' text-anchor='end' x='1362' y='262'>34</text>
+
+  <!-- ========================= Zeile 4 ========================= -->
+  <!-- Caps (1.75u), A..L, Ö (192), Ä (222), # (191) -->
+  <rect class='key' x='20' y='280' width='125' height='60' rx='8' ry='8'/><text class='label' x='28' y='306'>Feststellt</text><text class='code' text-anchor='end' x='137' y='332'>20</text>
+  <rect class='key' x='155' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='163' y='306'>A</text><text class='code' text-anchor='end' x='207' y='332'>65</text>
+  <rect class='key' x='225' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='233' y='306'>S</text><text class='code' text-anchor='end' x='277' y='332'>83</text>
+  <rect class='key' x='295' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='303' y='306'>D</text><text class='code' text-anchor='end' x='347' y='332'>68</text>
+  <rect class='key' x='365' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='373' y='306'>F</text><text class='code' text-anchor='end' x='417' y='332'>70</text>
+  <rect class='key' x='435' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='443' y='306'>G</text><text class='code' text-anchor='end' x='487' y='332'>71</text>
+  <rect class='key' x='505' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='513' y='306'>H</text><text class='code' text-anchor='end' x='557' y='332'>72</text>
+  <rect class='key' x='575' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='583' y='306'>J</text><text class='code' text-anchor='end' x='627' y='332'>74</text>
+  <rect class='key' x='645' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='653' y='306'>K</text><text class='code' text-anchor='end' x='697' y='332'>75</text>
+  <rect class='key' x='715' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='723' y='306'>L</text><text class='code' text-anchor='end' x='767' y='332'>76</text>
+  <rect class='key' x='785' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='793' y='306'>Ö</text><text class='code' text-anchor='end' x='837' y='332'>192</text>
+  <rect class='key' x='855' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='863' y='306'>Ä</text><text class='code' text-anchor='end' x='907' y='332'>222</text>
+  <rect class='key' x='925' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='933' y='306'>#</text><text class='code' text-anchor='end' x='977' y='332'>191</text>
+
+  <!-- ========================= Zeile 5 ========================= -->
+  <!-- Shift (2.25u), < (226), Y X C V B N M , . - , Shift (2.75u) -->
+  <rect class='key' x='20' y='350' width='155' height='60' rx='8' ry='8'/><text class='label' x='28' y='376'>Umschalt</text><text class='code' text-anchor='end' x='167' y='402'>16</text>
+  <rect class='key' x='185' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='193' y='376'>&lt;</text><text class='code' text-anchor='end' x='237' y='402'>226</text>
+  <rect class='key' x='255' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='263' y='376'>Y</text><text class='code' text-anchor='end' x='307' y='402'>89</text>
+  <rect class='key' x='325' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='333' y='376'>X</text><text class='code' text-anchor='end' x='377' y='402'>88</text>
+  <rect class='key' x='395' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='403' y='376'>C</text><text class='code' text-anchor='end' x='447' y='402'>67</text>
+  <rect class='key' x='465' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='473' y='376'>V</text><text class='code' text-anchor='end' x='517' y='402'>86</text>
+  <rect class='key' x='535' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='543' y='376'>B</text><text class='code' text-anchor='end' x='587' y='402'>66</text>
+  <rect class='key' x='605' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='613' y='376'>N</text><text class='code' text-anchor='end' x='657' y='402'>78</text>
+  <rect class='key' x='675' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='683' y='376'>M</text><text class='code' text-anchor='end' x='727' y='402'>77</text>
+  <rect class='key' x='745' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='753' y='376'>,</text><text class='code' text-anchor='end' x='797' y='402'>188</text>
+  <rect class='key' x='815' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='823' y='376'>.</text><text class='code' text-anchor='end' x='867' y='402'>190</text>
+  <rect class='key' x='885' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='893' y='376'>-</text><text class='code' text-anchor='end' x='937' y='402'>189</text>
+  <rect class='key' x='955' y='350' width='185' height='60' rx='8' ry='8'/><text class='label' x='963' y='376'>Umschalt</text><text class='code' text-anchor='end' x='1132' y='402'>16</text>
+
+  <!-- Pfeil ↑ (unter Nav-Mitte) -->
+  <rect class='key' x='1230' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='1238' y='376'>↑</text><text class='code' text-anchor='end' x='1292' y='402'>38</text>
+
+  <!-- ========================= Zeile 6 ========================= -->
+  <!-- Strg, Win, Alt, Space(6.25u), AltGr, Menü, Strg -->
+  <rect class='key' x='20' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='28' y='446'>Strg</text><text class='code' text-anchor='end' x='107' y='472'>17</text>
+  <rect class='key' x='125' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='133' y='446'>Win</text><text class='code' text-anchor='end' x='212' y='472'>91</text>
+  <rect class='key' x='230' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='238' y='446'>Alt</text><text class='code' text-anchor='end' x='317' y='472'>18</text>
+  <rect class='key' x='335' y='420' width='405' height='60' rx='8' ry='8'/><text class='label' x='343' y='446'>Leertaste</text><text class='code' text-anchor='end' x='732' y='472'>32</text>
+  <rect class='key' x='750' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='758' y='446'>AltGr</text><text class='code' text-anchor='end' x='837' y='472'>18</text>
+  <rect class='key' x='855' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='863' y='446'>Menü</text><text class='code' text-anchor='end' x='942' y='472'>93</text>
+  <rect class='key' x='960' y='420' width='95' height='60' rx='8' ry='8'/><text class='label' x='968' y='446'>Strg</text><text class='code' text-anchor='end' x='1047' y='472'>17</text>
+
+  <!-- Pfeile ← ↓ → -->
+  <rect class='key' x='1160' y='420' width='60' height='60' rx='8' ry='8'/><text class='label' x='1168' y='446'>←</text><text class='code' text-anchor='end' x='1212' y='472'>37</text>
+  <rect class='key' x='1230' y='420' width='60' height='60' rx='8' ry='8'/><text class='label' x='1238' y='446'>↓</text><text class='code' text-anchor='end' x='1292' y='472'>40</text>
+  <rect class='key' x='1300' y='420' width='60' height='60' rx='8' ry='8'/><text class='label' x='1308' y='446'>→</text><text class='code' text-anchor='end' x='1362' y='472'>39</text>
+
+  <!-- ========================= NumPad ========================= -->
+  <!-- Start rechts: np_x= start_x + 26*(U+G) = 20 + 26*70 = 1840 ; np_y = 140 -->
+  <!-- Row1: Num / * - -->
+  <rect class='key' x='1440' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1448' y='166'>Num</text><text class='code' text-anchor='end' x='1502' y='192'>144</text>
+  <rect class='key' x='1510' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1518' y='166'>/</text><text class='code' text-anchor='end' x='1572' y='192'>111</text>
+  <rect class='key' x='1580' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1588' y='166'>*</text><text class='code' text-anchor='end' x='1642' y='192'>106</text>
+  <rect class='key' x='1650' y='140' width='60' height='60' rx='8' ry='8'/><text class='label' x='1658' y='166'>-</text><text class='code' text-anchor='end' x='1712' y='192'>109</text>
+
+  <!-- Row2: 7 8 9 + -->
+  <rect class='key' x='1440' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1448' y='236'>7</text><text class='code' text-anchor='end' x='1502' y='262'>103</text>
+  <rect class='key' x='1510' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1518' y='236'>8</text><text class='code' text-anchor='end' x='1572' y='262'>104</text>
+  <rect class='key' x='1580' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1588' y='236'>9</text><text class='code' text-anchor='end' x='1642' y='262'>105</text>
+  <rect class='key' x='1650' y='210' width='60' height='60' rx='8' ry='8'/><text class='label' x='1658' y='236'>+</text><text class='code' text-anchor='end' x='1712' y='262'>107</text>
+
+  <!-- Row3: 4 5 6 + -->
+  <rect class='key' x='1440' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='1448' y='306'>4</text><text class='code' text-anchor='end' x='1502' y='332'>100</text>
+  <rect class='key' x='1510' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='1518' y='306'>5</text><text class='code' text-anchor='end' x='1572' y='332'>101</text>
+  <rect class='key' x='1580' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='1588' y='306'>6</text><text class='code' text-anchor='end' x='1642' y='332'>102</text>
+  <rect class='key' x='1650' y='280' width='60' height='60' rx='8' ry='8'/><text class='label' x='1658' y='306'>+</text><text class='code' text-anchor='end' x='1712' y='332'>107</text>
+
+  <!-- Row4: 1 2 3 Enter -->
+  <rect class='key' x='1440' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='1448' y='376'>1</text><text class='code' text-anchor='end' x='1502' y='402'>97</text>
+  <rect class='key' x='1510' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='1618' y='376'>2</text><text class='code' text-anchor='end' x='1572' y='402'>98</text>
+  <rect class='key' x='1580' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='1588' y='376'>3</text><text class='code' text-anchor='end' x='1642' y='402'>99</text>
+  <rect class='key' x='1650' y='350' width='60' height='60' rx='8' ry='8'/><text class='label' x='1658' y='376'>Enter</text><text class='code' text-anchor='end' x='1712' y='402'>13</text>
+
+  <!-- Row5: 0 (2u), , -->
+  <rect class='key' x='1440' y='420' width='130' height='60' rx='8' ry='8'/><text class='label' x='1448' y='446'>0</text><text class='code' text-anchor='end' x='1562' y='472'>96</text>
+  <rect class='key' x='1580' y='420' width='60' height='60' rx='8' ry='8'/><text class='label' x='1688' y='446'>,</text><text class='code' text-anchor='end' x='1642' y='472'>110</text>
+
+</svg>
